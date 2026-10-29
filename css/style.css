@@ -1,0 +1,200 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+body {
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(206, 116, 214);
+    padding: 8px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+#header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#header-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.gallery-top {
+    width: 100%;
+}
+
+.gallery-top img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.gallery-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-card {
+    border: 2px solid rgb(206, 116, 214);
+    border-radius: 15px;
+    width: calc((100% - 3 * 10px) / 4); /* 4 por fila */
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-card p {
+    padding: 8px;
+}
+
+.gallery-card-image-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.gallery-card-image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.opciones span,
+.opciones a {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.servicio {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(206, 116, 214);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.sobre-nosotras img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.contacto {
+    border: 2px solid rgb(206, 116, 214);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(206, 116, 214);
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* ================= TABLET (hasta 1024px) ================= */
+
+@media (max-width: 1024px) {
+    main {
+        padding: 15px;
+    }
+
+    .gallery-card {
+        width: calc((100% - 2 * 10px) / 3); /* 3 por fila */
+    }
+}
+
+
+/* ================= MÓVIL (hasta 600px) ================= */
+
+@media (max-width: 600px) {
+    header {
+        padding: 6px 10px;
+    }
+
+    #header-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .opciones span,
+    .opciones a {
+        padding: 6px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .gallery-card {
+        width: calc((100% - 10px) / 2); /* 2 por fila */
+    }
+
+    .gallery-card p {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
