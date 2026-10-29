@@ -61,13 +61,10 @@ The layout adapts to the screen size:
 
 ## Authors ✒️
 
-* **[Mónica]** - *Design and development* - [your-profile-link]
+* **[Mónica]** - *Design and development* 
 
 
   
 # Acknowledgements 🎁
 
 Thanks to Tiburcio, our favourite teacher, for teaching us how to become a website content creator.
-
----
-✂️ made with ❤️ for Peluquería Mónica 😊
