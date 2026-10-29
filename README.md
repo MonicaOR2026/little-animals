@@ -15,24 +15,6 @@ _What you need to run the project:_
 
 No server or extra installation is needed, since it is a static website.
 
-### Installation 🔧
-
-_Step by step to get a development environment running:_
-
-Download or clone the project:
-
-```
-git clone [your-repository-url]
-```
-
-Open the project folder:
-
-```
-cd peluqueria-monica
-```
-
-Open `index.html` in your browser (double-click the file, or use the *Live Server* extension in Visual Studio Code).
-
 ## Project Structure 📁
 
 ```
