@@ -61,10 +61,11 @@ The layout adapts to the screen size:
 
 ## Authors ✒️
 
-* **[Mónica]** - *Design and development* 
+* **[Mónica]** - *Design and development*
 
-
+ 
   
 # Acknowledgements 🎁
+Inspiration on https://dribbble.com/shots/26785121-Enterprise-Web-Design-for-Quantexa?utm_source=Clipboard_Shot&utm_campaign=ramotion&utm_content=Enterprise%20Web%20Design%20for%20Quantexa&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=ramotion&utm_content=Enterprise%20Web%20Design%20for%20Quantexa&utm_medium=Social_Share
 
 Thanks to Tiburcio, our favourite teacher, for teaching us how to become a website content creator.
